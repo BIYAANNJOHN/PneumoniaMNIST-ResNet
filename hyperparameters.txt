@@ -1,7 +1,0 @@
-Hyperparameter Notes:
-- Learning Rate: 1e-4 (Adam Optimizer)
-- Batch Size: 32
-- Epochs: 20
-- Data Augmentation: Horizontal flip, normalization
-- Loss Function: CrossEntropyLoss
-- Model: ResNet-50 pretrained on ImageNet
