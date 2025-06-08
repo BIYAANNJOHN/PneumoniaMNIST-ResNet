@@ -1,0 +1,20 @@
+Hyperparameter Notes:
+
+• Learning Rate: 1e-4  
+  - Chosen for stable and gradual learning with Adam optimizer.
+
+• Batch Size: 32  
+  - A balanced size offering good performance and generalization on limited GPU memory.
+
+• Epochs: 20  
+  - Sufficient to reach convergence without overfitting.
+
+• Optimizer: Adam  
+  - Adaptive learning rate and fast convergence, suitable for transfer learning.
+
+• Loss Function: CrossEntropyLoss (with class weights)  
+  - Suitable for binary classification; weighting handles class imbalance.
+
+• Data Augmentation:
+  - RandomHorizontalFlip and Normalization used to prevent overfitting and improve robustness.
+
